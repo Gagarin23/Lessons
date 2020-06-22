@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLLesson", "SQLLesson\SQLL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQLesson", "LINQLesson\LINQLesson.csproj", "{1FC99AE7-7BE2-45FD-9CD0-573FEE598C4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extension_Method", "Extension_Method\Extension_Method.csproj", "{66FB5422-1BE2-4660-BCBD-AF7738D5B3D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{1FC99AE7-7BE2-45FD-9CD0-573FEE598C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FC99AE7-7BE2-45FD-9CD0-573FEE598C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FC99AE7-7BE2-45FD-9CD0-573FEE598C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66FB5422-1BE2-4660-BCBD-AF7738D5B3D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66FB5422-1BE2-4660-BCBD-AF7738D5B3D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66FB5422-1BE2-4660-BCBD-AF7738D5B3D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66FB5422-1BE2-4660-BCBD-AF7738D5B3D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
