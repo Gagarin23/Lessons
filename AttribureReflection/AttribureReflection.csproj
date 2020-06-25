@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{66FB5422-1BE2-4660-BCBD-AF7738D5B3D1}</ProjectGuid>
+    <ProjectGuid>{9EF84191-5F87-44AE-95AE-69B50899A485}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Extension_Method</RootNamespace>
-    <AssemblyName>Extension_Method</AssemblyName>
+    <RootNamespace>AttribureReflection</RootNamespace>
+    <AssemblyName>AttribureReflection</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Helper.cs" />
+    <Compile Include="GeoAttribute.cs" />
+    <Compile Include="Photo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Road.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
